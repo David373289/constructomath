@@ -1,0 +1,38 @@
+*{
+    font: 25px sans-serif;
+}
+
+h1{
+    font-size: 1.45em;
+}
+
+[bold]{
+    font-weight: bold;
+}
+
+[is-normal-link]{
+    color: blue;
+}
+
+[is-button-link]{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+nav {
+    background-color: lightblue;
+}
+
+nav [option]{
+    padding: 7px;
+    display: inline-block;
+}
+
+nav a{
+    cursor: pointer;
+}
+
+[selected]{
+    text-decoration: underline;
+}
